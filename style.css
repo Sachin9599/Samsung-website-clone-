@@ -1,0 +1,221 @@
+body{
+  position: static;
+}
+.navbar1 {
+  height: 80px;
+}
+.navbar2 {
+  height: 50px;
+}
+.button2 {
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  margin: 0;
+}
+.Galaxy {
+  font-weight: 233px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.compare {
+  font-size: 15px;
+}
+.navbar ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar3 {
+  height: 30px;
+}
+.s20 {
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue; /* Safari */
+  text-decoration-color: blue;
+}
+.snap h1 {
+  margin-top: 150px;
+}
+.para {
+  font-size: 20px;
+  margin-top: 10vh;
+}
+.paragraph {
+  font-size: 20px;
+}
+.h4 {
+  margin-bottom: 150px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  padding: 55px;
+  margin-top: 50px;
+}
+
+.wider {
+  margin-top: 90px;
+}
+.data {
+  margin-top: 30px;
+}
+.data2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 90px;
+}
+.left {
+  border-radius: 50px;
+  height: 90vh;
+  /* width: 500vh; */
+  width: auto;
+  margin: auto;
+  display: block;
+}
+.left2 {
+  left: 23px;
+  display: block;
+}
+.right {
+  display: inline-block;
+}
+.btn-area {
+  /* padding: 23px; */
+  width: auto;
+  padding: 0 40px;
+  color: black;
+  margin-top: 23px;
+  border: 1px solid black;
+  position: relative;
+  left: 500px;
+  margin-top: 90px;
+}
+.btn-area:hover {
+  /* width: auto; */
+  padding: 0 40px;
+  background-color: black;
+  color: white;
+  margin-top: 23px;
+  border: 1px solid black;
+  position: relative;
+  left: 500px;
+  margin-top: 90px;
+}
+.btn:hover {
+  border: black;
+}
+
+.banner2 {
+  margin-top: 180px;
+}
+.banner3 {
+  margin-top: 0px;
+}
+.g {
+  font-size: 250px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.video2 {
+  margin-bottom: 23px;
+}
+.text {
+  font-size: 180px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.galaxy {
+  padding: 23px;
+  position: relative;
+}
+.left_text {
+  position: absolute;
+  top: 238px;
+  left: 150px;
+  font-size: 34px;
+  font-weight: bold;
+}
+.galaxy2 {
+  padding: 23px;
+  border-radius: 23px;
+}
+.right_text {
+  position: absolute;
+}
+
+.galaxy3 {
+  padding: 23px;
+}
+.right_tex {
+  position: absolute;
+  top: 158px;
+  left: 130px;
+  font-size: 34px;
+  /* font-weight: bold; */
+  color: white;
+}
+.foot p{
+  font-size: 12px;
+  margin: 23px;
+}
+.home{
+  margin: 13px;
+}
+
+
+
+/* footer css */
+.column2 {
+  font-size: 13px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row2{
+  padding: 12px;
+  height: 90vh;
+}
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer_text{
+  font-size: 12px;
+  margin-left: 12px;
+}
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+  }
+}
+.front{
+  margin-bottom: 23px;
+}
+.carousel-multi-item-2 .card img {
+  border-radius: 2px;
+}
+.card{
+  border-radius: 23px;
+}
